@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite de Casamento</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Titillium+Web&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body id="inicio"> 
+  <div class="loader">
+    <div></div>
+  </div>
+  <div class="content">
+    <div class="todo-conteudo">
+        <div class="container" id="tela1">
+            <img id="t1" src="assets/convite_casamento_final.svg" alt="">
+              <div class="icones">
+                <a id="icone1" href="">
+                  <img id="imgIcones" src="assets/igreja.png" alt="">
+                </a>
+                <a id="icone2" href="">
+                  <img id="imgIcones" src="assets/Lista de presentes.png" alt="">
+                </a>
+                <a id="icone3" href="">
+                  <img id="imgIcones" src="assets/Confimar presença.png" alt="">
+                </a>
+              </div>
+      </div>
+  </div>
+
+  <script>
+    $(window).on('load',function(){
+      $(".loader").fadeOut(1000)
+      $(".content").fadeIn(1000)
+    })
+  </script>
+</body>
+</html>
