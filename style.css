@@ -468,10 +468,10 @@ body {
     
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 365px) {
 
     .container {
-        width: 90vw;
+        width: 80vw;
         display: flex;
         margin: 0%;
         padding: 5%;
