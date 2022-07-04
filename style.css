@@ -472,7 +472,7 @@ body {
 @media screen and (max-width: 365px) {
 
     .container {
-        width: 80vw;
+        width: 75vw;
         display: flex;
         margin: 0%;
         padding: 5%;
@@ -486,19 +486,19 @@ body {
     }
     
     #icone1 {
-        left: 7%;
+        left: 8%;
     }
     
     #icone2 {
-        left: 39%;
+        left: 40%;
     }
     
     #icone3 {
-        left: 68%;
+        left: 69%;
     }
     
     #imgIcones {
-        width: 25vw;
+        width: 20vw;
     }
     
 }
